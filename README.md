@@ -5,7 +5,7 @@ Dont forget to create connection in admin tab in AIRFLOW
 ```connections
 Postgress ::
 Connection Id : postgres_default
-Host : etl_22819e-postgres-1      (Replace this with aws db or anything | this currently points to docker postgress)
+Host : etl_22819e-postgres-1      (Replace this with aws db or anything | this currently points to docker postgress (https://api.open-meteo.com/v1/forecast?latitude=51.5074&longitude=-0.1278&current_weather=true))  
 Login : postgres
 Password : postgres
 port : 5432
